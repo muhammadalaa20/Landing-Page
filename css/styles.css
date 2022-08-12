@@ -1,0 +1,429 @@
+a{
+    text-decoration: none;
+}
+/*Desktop view*/
+@media screen and (min-width:1280px){
+
+    *{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    #container{
+        width: 100%;
+        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        top: 0;
+        height: 60px;
+        box-sizing: border-box;
+        transition: top 0.3s;
+        display: block;
+        position: fixed;
+    }
+    #navBar{
+        height: 60px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+    #navList{
+        font-size: 15px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    .navItem{
+        display: flex;
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .navItem a:hover{
+        height: 60px;
+        display: flex;
+        color: salmon;
+        background-color: white;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .navItem a:active{
+        color: black;
+        font-size: 20px;
+    }
+    
+    .section{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 20px;
+        z-index: -1;
+        box-sizing: border-box;
+    }
+    #section1{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        padding: 120px 0px 0px 20px;
+    }
+    #section2{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        padding: 60px 0px 0px 20px;
+    }
+    #section3{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        padding: 60px 0px 0px 20px;
+    }
+    #section4{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
+        padding: 60px 0px 0px 20px;
+    }
+    .section pre,h1{
+        text-align: left;
+        color: white;
+    }
+    
+}
+
+/*Desktop view*/
+@media screen and (min-width:960px) and (max-width:1279px){
+
+    *{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    #container{
+        width: 100%;
+        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        top: 0;
+        height: 60px;
+        box-sizing: border-box;
+        transition: top 0.3s;
+        display: block;
+        position: fixed;
+    }
+    #navBar{
+        height: 60px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+    #navList{
+        font-size: 13px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    .navItem{
+        display: flex;
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .navItem a:active{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        background-color: white;
+        color: salmon;
+        font-size: 18px;
+    }
+    
+    .section{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 15px;
+        z-index: -1;
+        box-sizing: border-box;
+    }
+    #section1{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        padding: 120px 0px 0px 15px;
+    }
+    #section2{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        padding: 60px 0px 0px 15px;
+    }
+    #section3{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        padding: 60px 0px 0px 15px;
+    }
+    #section4{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
+        padding: 60px 0px 0px 15px;
+    }
+    .section pre,h1{
+        text-align: left;
+        color: white;
+    }
+    
+}
+
+/*tablet view*/
+@media screen and (min-width:700px) and (max-width:959px){
+
+    
+    *{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    #container{
+        width: 100%;
+        height: 60px;
+        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        align-items: center;
+        display: block;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+        transition: top 0.3s;
+    }
+    #navBar{
+        height: 60px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+    #navList{
+        font-size: 10px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    .navItem{
+        display: flex;
+        width: 40px;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .navItem a:active{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        background-color: white;
+        color: salmon;
+        
+    }
+    
+    .section{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 12px;
+        box-sizing: border-box;
+        z-index: -1;
+    }
+    #section1{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        padding: 120px 0px 0px 10px;
+    }
+    #section2{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        padding: 60px 0px 0px 10px;
+    }
+    #section3{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        padding: 60px 0px 0px 10px;
+    }
+    #section4{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
+        padding: 60px 0px 0px 10px;
+    }
+    .section pre,h1{
+        text-align: left;
+        color: white;
+    }
+    
+
+}
+
+
+/*large mobile or small tablet*/
+@media screen and (max-width:699px) and (min-width:481px){
+
+    
+    *{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    #container{
+        width: 100%;
+        height: 30px;
+        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        align-items: center;
+        display: flex;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+    }
+    #navBar{
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+    #navList{
+        font-size: 8px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    .navItem{
+        display: flex;
+        width: 30px;
+        height: 13.5px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .navItem a:active{
+        
+        font-size: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        background-color: white;
+        color: salmon;
+        
+    }
+    
+    .section{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 8px;
+        box-sizing: border-box;
+        z-index: -1;
+    }
+    #section1{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        padding: 45px 0px 0px 5px;
+    }
+    #section2{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        padding: 20px 0px 0px 5px;
+    }
+    #section3{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        padding: 20px 0px 0px 5px;
+    }
+    #section4{
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
+        padding: 20px 0px 0px 5px;
+    }
+    .section pre,h1{
+        text-align: left;
+        color: white;
+    }
+    
+
+}
+
+
+/*mobile view*/
+@media screen and (max-width:480px) {
+    
+*{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    transition: top 0.3s;
+}
+#navBar{
+    height: 20px;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+}
+#navList{
+    font-size: 7px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navItem{
+    display: flex;
+    width: 18px;
+    height: 13px;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navItem a:active{
+    
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-color: white;
+    color: salmon;
+    
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    font-size: 7px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+#section1{
+    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+    padding: 35px 0px 0px 4px;
+}
+#section2{
+    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+    padding: 20px 0px 0px 4px;
+}
+#section3{
+    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+    padding: 20px 0px 0px 4px;
+}
+#section4{
+    background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
+    padding: 20px 0px 0px 4px;
+}
+.section pre,h1{
+    text-align: left;
+    color: white;
+}
+
+
+}
