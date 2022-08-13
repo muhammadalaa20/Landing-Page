@@ -84,6 +84,10 @@ you can see how i build the navBar or how i used JavaScript to respond to action
 # Development
 [(Back to top)](#table-of-contents)
 
+just copy paste the following line inside git bash
+git clone https://github.com/muhammadalaa20/Landing-Page
+and the open the folder in VSC 
+then start editing
 <!-- This is the place where you give instructions to developers on how to modify the code.
 
 You could give **instructions in depth** of **how the code works** and how everything is put together.
