@@ -76,6 +76,8 @@ To use this project, first clone the repo on your device using the command below
 
 # Usage
 [(Back to top)](#table-of-contents)
+i am a beginner and that code is my first project ever
+you can see how i build the navBar or how i used JavaScript to respond to actions
 
 <!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
 
