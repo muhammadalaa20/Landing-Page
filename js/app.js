@@ -29,10 +29,21 @@ for (let activeSec of anchorLinks) {
         //.preventDefault to stop the old way of scrolling
         e.preventDefault()
     })
+    activeSec.addEventListener('onclick', (eve) => {
+      //get the valueof the href
+      let hashValue = activeSec.getAttribute('href')
+      let target = document.querySelector(hashValue)
+      target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+      })
+      //.preventDefault to stop the old way of scrolling
+      eve.preventDefault()
+  })
 }
 
 
-
+//needs scroll handling 
 
 //window.pageYOffset returns the number of pixels scrolled up or down
 let prevScrollPosition = window.pageYOffset;
@@ -77,28 +88,59 @@ update()
 
 
 
+/*
 //hide nav if idle
 const navHide=document.querySelector("#container")
 //every 10 idle seconds the nav bar will be hidden
 function hideNavBar(){
-  time=setInterval((event)=>{
+  for(let i=1;i<2;i++){
+  time=setTimeout((event)=>{
+      console.log("started")
     navHide.style.top="-60px"
-  },10000)
+  },3000)
 }
+}
+function clearTime(){
+  let events=["scroll","mousemove","keypress"]
+  events.forEach((eventName) => {
+        document.addEventListener(eventName, ()=>{
+          console.log("cleared")
+          clearTimeout(time)
+          navHide.style.top="0px"
+        } )  
+  });
+  }
+  
 //clearTimeout will reset the timer
 function clearTime(){
-  clearTimeout(time)  
+ // let events=["scroll","mousemove","keypress"]
+      document.addEventListener("click", ()=>{
+        console.log("cleared")
+          clearTimeout(time)
+          navHide.style.top="0px"
+        } )  
 }
 //some eventListeners to clear the timer
-function clearFunc(){
-let events=["scroll","mousemove","keypress"]
-events.forEach((eventName) => {
-      document.addEventListener(eventName, ()=>{
-        ()=>{
-                clearTime();
-        }
-      } )  
-});
-}
 hideNavBar()
-clearFunc()
+clearTime()
+
+*/
+
+function clearTime(){
+  let events=["scroll","mousemove","keypress"]
+  events.forEach((eventName) => {
+        document.addEventListener(eventName, ()=>{
+          console.log("cleared")
+          clearTimeout(time)
+          navHide.style.top="0px"
+        } )  
+  });
+  }
+
+//get the button by the id btnUp
+let btnUp = document.getElementById("btnUp")
+//showing the btnUp after passing a threshold
+//calling the function from the html onclick
+function topFunction(){
+  document.documentElement.scrollTop=0
+}

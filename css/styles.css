@@ -1,11 +1,12 @@
 a{
     text-decoration: none;
 }
+
 #btnUp{
     width: 25px;
     height: 25px;
-    font-size: 13px;
-    border-radius: 4px;
+    font-size: 23px;
+    border-radius: 45%;
     border: none;
     outline: none;
     position: fixed;
@@ -13,7 +14,12 @@ a{
     right: 30px;
     z-index: 99;
     cursor: pointer;
-    background-color: rgb(73, 136, 138);
+    background-color: rgb(182, 73, 100);
+    padding: 0%;
+    display: block;
+}
+#btnUp:active{
+    background-color: white;
 }
 /*Desktop view*/
 @media screen and (min-width:1280px){
