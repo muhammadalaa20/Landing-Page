@@ -31,7 +31,7 @@ a{
     }
     #container{
         width: 100%;
-        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        background-image: linear-gradient(to right,rgb(113, 190, 201),rgb(196, 196, 196),black);
         top: 0;
         height: 60px;
         box-sizing: border-box;
@@ -84,15 +84,15 @@ a{
         box-sizing: border-box;
     }
     #section1{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 120px 0px 0px 20px;
     }
     #section2{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 20px;
     }
     #section3{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 20px;
     }
     #section4{
@@ -116,7 +116,7 @@ a{
     }
     #container{
         width: 100%;
-        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        background-image: linear-gradient(to left,rgb(34, 168, 221),rgb(255, 255, 255),black);
         top: 0;
         height: 60px;
         box-sizing: border-box;
@@ -166,15 +166,15 @@ a{
         box-sizing: border-box;
     }
     #section1{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 120px 0px 0px 15px;
     }
     #section2{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 15px;
     }
     #section3{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 15px;
     }
     #section4{
@@ -200,7 +200,7 @@ a{
     #container{
         width: 100%;
         height: 60px;
-        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        background-image: linear-gradient(to left,rgb(34, 168, 221),rgb(255, 255, 255),black);
         align-items: center;
         display: block;
         position: fixed;
@@ -251,15 +251,15 @@ a{
         z-index: -1;
     }
     #section1{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 120px 0px 0px 10px;
     }
     #section2{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 10px;
     }
     #section3{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 60px 0px 0px 10px;
     }
     #section4{
@@ -287,7 +287,7 @@ a{
     #container{
         width: 100%;
         height: 30px;
-        background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+        background-image: linear-gradient(to left,rgb(34, 168, 221),rgb(255, 255, 255),black);
         align-items: center;
         display: flex;
         position: fixed;
@@ -338,15 +338,15 @@ a{
         z-index: -1;
     }
     #section1{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 45px 0px 0px 5px;
     }
     #section2{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+        background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
         padding: 20px 0px 0px 5px;
     }
     #section3{
-        background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+        background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
         padding: 20px 0px 0px 5px;
     }
     #section4{
@@ -373,7 +373,7 @@ a{
 #container{
     width: 100%;
     height: 20px;
-    background-image: linear-gradient(to right,rgb(34, 168, 221),rgb(255, 255, 255),black);
+    background-image: linear-gradient(to left,rgb(34, 168, 221),rgb(255, 255, 255),black);
     align-items: center;
     display: flex;
     position: fixed;
@@ -426,15 +426,15 @@ a{
     z-index: -1;
 }
 #section1{
-    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(151, 112, 60),black);
+    background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
     padding: 35px 0px 0px 4px;
 }
 #section2{
-    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(105, 56, 56),black);
+    background-image: linear-gradient(to right, rgb(34, 168, 221),grey,black);
     padding: 20px 0px 0px 4px;
 }
 #section3{
-    background-image: linear-gradient(to right, rgb(34, 168, 221),rgb(100, 74, 148),black);
+    background-image: linear-gradient(to left, rgb(34, 168, 221),grey,black);
     padding: 20px 0px 0px 4px;
 }
 #section4{
