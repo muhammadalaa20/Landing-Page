@@ -29,17 +29,6 @@ for (let activeSec of anchorLinks) {
         //.preventDefault to stop the old way of scrolling
         e.preventDefault()
     })
-    activeSec.addEventListener('onclick', (eve) => {
-      //get the valueof the href
-      let hashValue = activeSec.getAttribute('href')
-      let target = document.querySelector(hashValue)
-      target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-      })
-      //.preventDefault to stop the old way of scrolling
-      eve.preventDefault()
-  })
 }
 
 
@@ -76,6 +65,7 @@ for(let i=0; i<sec.length;i++){
         //condition if true add the class
     if(rect.left >= 0 && rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth||document.documentElement.clientWidth)){
             sec[i].classList.add("active")
+           // document.getElementsByClassName("active").style.backgroundColor="yellow"
     }
     else{
             sec[i].classList.remove("active")
@@ -126,16 +116,6 @@ clearTime()
 
 */
 
-function clearTime(){
-  let events=["scroll","mousemove","keypress"]
-  events.forEach((eventName) => {
-        document.addEventListener(eventName, ()=>{
-          console.log("cleared")
-          clearTimeout(time)
-          navHide.style.top="0px"
-        } )  
-  });
-  }
 
 //get the button by the id btnUp
 let btnUp = document.getElementById("btnUp")
