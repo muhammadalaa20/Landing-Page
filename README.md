@@ -55,7 +55,7 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 
 # Installation
 [(Back to top)](#table-of-contents)
-
+you need to install any web browser and to edit the code you need to have git installed to clone it and VSC to edit the files
 <!-- *You might have noticed the **Back to top** button(if not, please notice, it's right there!). This is a good idea because it makes your README **easy to navigate.*** 
 
 The first one should be how to install(how to generally use your project or set-up for editing in their machine).
@@ -76,12 +76,18 @@ To use this project, first clone the repo on your device using the command below
 
 # Usage
 [(Back to top)](#table-of-contents)
+i am a beginner and that code is my first project ever
+you can see how i build the navBar or how i used JavaScript to respond to actions
 
 <!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
 
 # Development
 [(Back to top)](#table-of-contents)
 
+just copy paste the following line inside git bash
+[git clone https://github.com/muhammadalaa20/Landing-Page](https://github.com/muhammadalaa20/Landing-Page.git)
+and then open the folder in VSC 
+to start editing
 <!-- This is the place where you give instructions to developers on how to modify the code.
 
 You could give **instructions in depth** of **how the code works** and how everything is put together.
