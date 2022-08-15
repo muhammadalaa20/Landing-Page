@@ -44,15 +44,15 @@ a{
         box-sizing: border-box;
     }
     .navItem a:hover{
-        display: flex;
         color: red;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
     .navItem a:active{
-        color:black;
-    }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        color: red;
+        }
     
     .section{
         width: 100%;
