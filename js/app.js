@@ -1,7 +1,7 @@
 //Start with empty ul and dynamically build navigation using Append, appendChild, and innerHTML.
-const section=document.querySelectorAll(".section")
+const section = document.querySelectorAll(".section")
 const nav = document.querySelector("ul")
-for (let i = 1; i <=section.length; i++) {
+for (let i = 1; i <= section.length; i++) {
     //creating the li element
     const list = document.createElement("li")
     //changing the li element for each index in the for loop
