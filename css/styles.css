@@ -420,7 +420,7 @@ a{
 .section{
     width: 100%;
     min-height: 100vh;
-    font-size: 7px;
+    font-size: 6px;
     box-sizing: border-box;
     z-index: -1;
 }
@@ -443,7 +443,6 @@ a{
 .section pre,h1{
     text-align: left;
     color: white;
-    font-size: 6px;
 }
 
 }
