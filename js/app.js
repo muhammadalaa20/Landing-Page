@@ -10,7 +10,38 @@ for(let i=1;i<=4;i++){
     nav.appendChild(list)
 }
 
-
+//Highlight the first anchor in the nav
+const activeSec1 =document.getElementById("list1");
+activeSec1.addEventListener("click", function highlight(){
+    activeSec1.style.backgroundColor='lightblue'
+    activeSec2.style.backgroundColor=''
+    activeSec3.style.backgroundColor=''
+    activeSec4.style.backgroundColor=''
+});
+//Highlight the second anchor in the nav
+const activeSec2 =document.getElementById("list2");
+activeSec2.addEventListener("click",function highlight(){
+    activeSec2.style.backgroundColor='lightblue'
+    activeSec1.style.backgroundColor=''
+    activeSec3.style.backgroundColor=''
+    activeSec4.style.backgroundColor=''
+});
+//Highlight the third anchor in the nav
+const activeSec3 =document.getElementById("list3");
+activeSec3.addEventListener("click",function highlight(){
+    activeSec3.style.backgroundColor='lightblue'
+    activeSec1.style.backgroundColor=''
+    activeSec2.style.backgroundColor=''
+    activeSec4.style.backgroundColor=''
+});
+//Highlight the fourth anchor in the nav
+const activeSec4 =document.getElementById("list4");
+activeSec4.addEventListener("click",function highlight(){
+    activeSec4.style.backgroundColor='lightblue'
+    activeSec1.style.backgroundColor=''
+    activeSec2.style.backgroundColor=''
+    activeSec3.style.backgroundColor=''
+});
 
 
 //smooth scrolling using query selector to get all the anchors
@@ -33,7 +64,7 @@ for (let activeSec of anchorLinks) {
 
 
 //needs scroll handling 
-
+/*
 //window.pageYOffset returns the number of pixels scrolled up or down
 let prevScrollPosition = window.pageYOffset;
 window.onscroll = ()=> {
@@ -49,7 +80,7 @@ let currentScrollPos = window.pageYOffset;
   }
   prevScrollPosition = currentScrollPos;
 }
-
+*/
 
 
 
@@ -65,7 +96,6 @@ for(let i=0; i<sec.length;i++){
         //condition if true add the class
     if(rect.left >= 0 && rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth||document.documentElement.clientWidth)){
             sec[i].classList.add("active")
-           // document.getElementsByClassName("active").style.backgroundColor="yellow"
     }
     else{
             sec[i].classList.remove("active")
@@ -76,45 +106,6 @@ for(let i=0; i<sec.length;i++){
 document.addEventListener("scroll",update)
 update()
 
-
-
-/*
-//hide nav if idle
-const navHide=document.querySelector("#container")
-//every 10 idle seconds the nav bar will be hidden
-function hideNavBar(){
-  for(let i=1;i<2;i++){
-  time=setTimeout((event)=>{
-      console.log("started")
-    navHide.style.top="-60px"
-  },3000)
-}
-}
-function clearTime(){
-  let events=["scroll","mousemove","keypress"]
-  events.forEach((eventName) => {
-        document.addEventListener(eventName, ()=>{
-          console.log("cleared")
-          clearTimeout(time)
-          navHide.style.top="0px"
-        } )  
-  });
-  }
-  
-//clearTimeout will reset the timer
-function clearTime(){
- // let events=["scroll","mousemove","keypress"]
-      document.addEventListener("click", ()=>{
-        console.log("cleared")
-          clearTimeout(time)
-          navHide.style.top="0px"
-        } )  
-}
-//some eventListeners to clear the timer
-hideNavBar()
-clearTime()
-
-*/
 
 
 //get the button by the id btnUp
