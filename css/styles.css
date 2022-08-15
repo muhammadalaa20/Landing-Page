@@ -2,25 +2,6 @@ a{
     text-decoration: none;
 }
 
-#btnUp{
-    width: 25px;
-    height: 25px;
-    font-size: 23px;
-    border-radius: 45%;
-    border: none;
-    outline: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    cursor: pointer;
-    background-color: rgb(182, 73, 100);
-    padding: 0%;
-    display: block;
-}
-#btnUp:active{
-    background-color: white;
-}
 /*Desktop view*/
 @media screen and (min-width:1280px){
 
@@ -100,7 +81,25 @@ a{
         text-align: left;
         color: white;
     }
-    
+    #btnUp{
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+    #btnUp:active{
+        background-color: white;
+    }
 }
 
 /*Desktop view*/
@@ -182,7 +181,25 @@ a{
         text-align: left;
         color: white;
     }
-    
+    #btnUp{
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+    #btnUp:active{
+        background-color: white;
+    }
 }
 
 /*tablet view*/
@@ -269,7 +286,25 @@ a{
         text-align: left;
         color: white;
     }
-    
+    #btnUp{
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+    #btnUp:active{
+        background-color: white;
+    }
 
 }
 
@@ -356,13 +391,31 @@ a{
         text-align: left;
         color: white;
     }
-    
+    #btnUp{
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+    #btnUp:active{
+        background-color: white;
+    }
 
 }
 
 
 /*mobile view*/
-@media screen and (max-width:480px) {
+@media screen and (max-width:480px) and (min-width:281px) {
     
 *{
     width: 100%;
@@ -420,7 +473,7 @@ a{
 .section{
     width: 100%;
     min-height: 100vh;
-    font-size: 6px;
+    font-size: 5px;
     box-sizing: border-box;
     z-index: -1;
 }
@@ -444,5 +497,126 @@ a{
     text-align: left;
     color: white;
 }
-
+#btnUp{
+    width: 25px;
+    height: 25px;
+    font-size: 23px;
+    border-radius: 45%;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    background-color: rgb(182, 73, 100);
+    padding: 0%;
+    display: block;
 }
+#btnUp:active{
+    background-color: white;
+}
+}
+@media screen and (max-width:280px) {
+    
+    *{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    #container{
+        width: 100%;
+        height: 30px;
+        background-image: linear-gradient(to right,white,silver);
+        align-items: center;
+        display: flex;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+        transition: top 0.3s;
+    }
+    #navBar{
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+    #navList{
+        height: 30px;
+        font-size: 6px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    .navItem{
+        display: flex;
+        width: 35px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .navItem a:hover{
+        color: red;
+    }
+    .navItem a:active{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        color: red;
+        
+    }
+    
+    .section{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 4px;
+        box-sizing: border-box;
+        z-index: -1;
+    }
+    #section1{
+        background-image: linear-gradient(to left, green,lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+    #section2{
+        background-image: linear-gradient(to right, green,lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+    #section3{
+        background-image: linear-gradient(to left, green,lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+    #section4{
+        background-image: linear-gradient(to right, green,lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+    .section pre,h1{
+        text-align: left;
+        color: white;
+    }
+    #btnUp{
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+    #btnUp:active{
+        background-color: white;
+    }
+    }
+    
