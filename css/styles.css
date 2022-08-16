@@ -1,18 +1,19 @@
-a{
+a {
     text-decoration: none;
 }
 
 /*Desktop view*/
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) {
 
-    *{
+    * {
         width: 100%;
         color: rgb(0, 0, 0);
         margin: 0px;
     }
-    #container{
+
+    #container {
         width: 100%;
-        background-image: linear-gradient(to right,white,silver);
+        background-image: linear-gradient(to right, white, silver);
         top: 0;
         height: 60px;
         box-sizing: border-box;
@@ -20,13 +21,15 @@ a{
         display: block;
         position: fixed;
     }
-    #navBar{
+
+    #navBar {
         height: 60px;
         display: flex;
         justify-content: start;
         box-sizing: border-box;
     }
-    #navList{
+
+    #navList {
         font-size: 15px;
         width: 50%;
         display: flex;
@@ -35,7 +38,8 @@ a{
         list-style: none;
         box-sizing: border-box;
     }
-    .navItem{
+
+    .navItem {
         height: 60px;
         display: flex;
         width: 100px;
@@ -43,45 +47,54 @@ a{
         align-items: center;
         box-sizing: border-box;
     }
-    .navItem a:hover{
+
+    .navItem a:hover {
         color: red;
     }
-    .navItem a:active{
+
+    .navItem a:active {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
         color: red;
-        }
-    
-    .section{
+    }
+
+    .section {
         width: 100%;
         min-height: 100vh;
         font-size: 20px;
         z-index: -1;
         box-sizing: border-box;
     }
-    #section1{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 20px;
     }
-    #section2{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 20px;
     }
-    #section3{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 20px;
     }
-    #section4{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 20px;
     }
-    .section pre,h1{
+
+    .section pre,
+    h1 {
         text-align: left;
         color: white;
     }
-    #btnUp{
+
+    #btnUp {
         width: 25px;
         height: 25px;
         font-size: 23px;
@@ -97,22 +110,24 @@ a{
         padding: 0%;
         display: block;
     }
-    #btnUp:active{
+
+    #btnUp:active {
         background-color: white;
     }
 }
 
 /*Desktop view*/
-@media screen and (min-width:960px) and (max-width:1279px){
+@media screen and (min-width:960px) and (max-width:1279px) {
 
-    *{
+    * {
         width: 100%;
         color: rgb(0, 0, 0);
         margin: 0px;
     }
-    #container{
+
+    #container {
         width: 100%;
-        background-image: linear-gradient(to right,white,silver);
+        background-image: linear-gradient(to right, white, silver);
         top: 0;
         height: 60px;
         box-sizing: border-box;
@@ -120,13 +135,15 @@ a{
         display: block;
         position: fixed;
     }
-    #navBar{
+
+    #navBar {
         height: 60px;
         display: flex;
         justify-content: start;
         box-sizing: border-box;
     }
-    #navList{
+
+    #navList {
         font-size: 13px;
         width: 50%;
         display: flex;
@@ -135,7 +152,8 @@ a{
         list-style: none;
         box-sizing: border-box;
     }
-    .navItem{
+
+    .navItem {
         display: flex;
         width: 100px;
         height: 60px;
@@ -143,45 +161,54 @@ a{
         align-items: center;
         box-sizing: border-box;
     }
-    .navItem a:hover{
+
+    .navItem a:hover {
         color: red;
     }
-    .navItem a:active{
+
+    .navItem a:active {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
         color: red;
     }
-    
-    .section{
+
+    .section {
         width: 100%;
         min-height: 100vh;
         font-size: 15px;
         z-index: -1;
         box-sizing: border-box;
     }
-    #section1{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 15px;
     }
-    #section2{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 15px;
     }
-    #section3{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 15px;
     }
-    #section4{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 15px;
     }
-    .section pre,h1{
+
+    .section pre,
+    h1 {
         text-align: left;
         color: white;
     }
-    #btnUp{
+
+    #btnUp {
         width: 25px;
         height: 25px;
         font-size: 23px;
@@ -197,24 +224,26 @@ a{
         padding: 0%;
         display: block;
     }
-    #btnUp:active{
+
+    #btnUp:active {
         background-color: white;
     }
 }
 
 /*tablet view*/
-@media screen and (min-width:700px) and (max-width:959px){
+@media screen and (min-width:700px) and (max-width:959px) {
 
-    
-    *{
+
+    * {
         width: 100%;
         color: rgb(0, 0, 0);
         margin: 0px;
     }
-    #container{
+
+    #container {
         width: 100%;
         height: 60px;
-        background-image: linear-gradient(to right,white,silver);
+        background-image: linear-gradient(to right, white, silver);
         align-items: center;
         display: block;
         position: fixed;
@@ -222,13 +251,15 @@ a{
         box-sizing: border-box;
         transition: top 0.3s;
     }
-    #navBar{
+
+    #navBar {
         height: 60px;
         display: flex;
         justify-content: start;
         box-sizing: border-box;
     }
-    #navList{
+
+    #navList {
         height: 60px;
         font-size: 10px;
         width: 50%;
@@ -238,7 +269,8 @@ a{
         list-style: none;
         box-sizing: border-box;
     }
-    .navItem{
+
+    .navItem {
         display: flex;
         width: 60px;
         height: 60px;
@@ -247,46 +279,55 @@ a{
         justify-content: center;
         box-sizing: border-box;
     }
-    .navItem a:hover{
+
+    .navItem a:hover {
         color: red;
     }
-    .navItem a:active{
+
+    .navItem a:active {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
         color: red;
-        
+
     }
-    
-    .section{
+
+    .section {
         width: 100%;
         min-height: 100vh;
         font-size: 12px;
         box-sizing: border-box;
         z-index: -1;
     }
-    #section1{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 10px;
     }
-    #section2{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 10px;
     }
-    #section3{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 120px 0px 0px 10px;
     }
-    #section4{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 120px 0px 0px 10px;
     }
-    .section pre,h1{
+
+    .section pre,
+    h1 {
         text-align: left;
         color: white;
     }
-    #btnUp{
+
+    #btnUp {
         width: 25px;
         height: 25px;
         font-size: 23px;
@@ -302,7 +343,8 @@ a{
         padding: 0%;
         display: block;
     }
-    #btnUp:active{
+
+    #btnUp:active {
         background-color: white;
     }
 
@@ -310,31 +352,34 @@ a{
 
 
 /*large mobile or small tablet*/
-@media screen and (max-width:699px) and (min-width:481px){
+@media screen and (max-width:699px) and (min-width:481px) {
 
-    
-    *{
+
+    * {
         width: 100%;
         color: rgb(0, 0, 0);
         margin: 0px;
     }
-    #container{
+
+    #container {
         width: 100%;
         height: 30px;
-        background-image: linear-gradient(to right,white,silver);
+        background-image: linear-gradient(to right, white, silver);
         align-items: center;
         display: flex;
         position: fixed;
         top: 0;
         box-sizing: border-box;
     }
-    #navBar{
+
+    #navBar {
         height: 30px;
         display: flex;
         justify-content: start;
         box-sizing: border-box;
     }
-    #navList{
+
+    #navList {
         height: 30px;
         font-size: 8px;
         width: 50%;
@@ -344,7 +389,8 @@ a{
         list-style: none;
         box-sizing: border-box;
     }
-    .navItem{
+
+    .navItem {
         display: flex;
         width: 50px;
         height: 30px;
@@ -352,46 +398,55 @@ a{
         align-items: center;
         box-sizing: border-box;
     }
-    .navItem a:hover{
+
+    .navItem a:hover {
         color: red;
     }
-    .navItem a:active{
+
+    .navItem a:active {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 30px;
         color: red;
-        
+
     }
-    
-    .section{
+
+    .section {
         width: 100%;
         min-height: 100vh;
         font-size: 9px;
         box-sizing: border-box;
         z-index: -1;
     }
-    #section1{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 45px 0px 0px 5px;
     }
-    #section2{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 45px 0px 0px 5px;
     }
-    #section3{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 45px 0px 0px 5px;
     }
-    #section4{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 45px 0px 0px 5px;
     }
-    .section pre,h1{
+
+    .section pre,
+    h1 {
         text-align: left;
         color: white;
     }
-    #btnUp{
+
+    #btnUp {
         width: 25px;
         height: 25px;
         font-size: 23px;
@@ -407,7 +462,8 @@ a{
         padding: 0%;
         display: block;
     }
-    #btnUp:active{
+
+    #btnUp:active {
         background-color: white;
     }
 
@@ -416,118 +472,17 @@ a{
 
 /*mobile view*/
 @media screen and (max-width:480px) and (min-width:281px) {
-    
-*{
-    width: 100%;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-}
-#container{
-    width: 100%;
-    height: 30px;
-    background-image: linear-gradient(to right,white,silver);
-    align-items: center;
-    display: flex;
-    position: fixed;
-    top: 0;
-    box-sizing: border-box;
-    transition: top 0.3s;
-}
-#navBar{
-    height: 30px;
-    display: flex;
-    justify-content: start;
-    box-sizing: border-box;
-}
-#navList{
-    height: 30px;
-    font-size: 6px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    box-sizing: border-box;
-}
-.navItem{
-    display: flex;
-    width: 35px;
-    height: 30px;
-    text-align: center;
-    align-items: center;
-    box-sizing: border-box;
-}
 
-.navItem a:hover{
-    color: red;
-}
-.navItem a:active{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    color: red;
-    
-}
-
-.section{
-    width: 100%;
-    min-height: 100vh;
-    font-size: 5px;
-    box-sizing: border-box;
-    z-index: -1;
-}
-#section1{
-    background-image: linear-gradient(to left, green,lightblue);
-    padding: 35px 0px 0px 4px;
-}
-#section2{
-    background-image: linear-gradient(to right, green,lightblue);
-    padding: 35px 0px 0px 4px;
-}
-#section3{
-    background-image: linear-gradient(to left, green,lightblue);
-    padding: 35px 0px 0px 4px;
-}
-#section4{
-    background-image: linear-gradient(to right, green,lightblue);
-    padding: 35px 0px 0px 4px;
-}
-.section pre,h1{
-    text-align: left;
-    color: white;
-}
-#btnUp{
-    width: 25px;
-    height: 25px;
-    font-size: 23px;
-    border-radius: 45%;
-    border: none;
-    outline: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    cursor: pointer;
-    background-color: rgb(182, 73, 100);
-    padding: 0%;
-    display: block;
-}
-#btnUp:active{
-    background-color: white;
-}
-}
-@media screen and (max-width:280px) {
-    
-    *{
+    * {
         width: 100%;
         color: rgb(0, 0, 0);
         margin: 0px;
     }
-    #container{
+
+    #container {
         width: 100%;
         height: 30px;
-        background-image: linear-gradient(to right,white,silver);
+        background-image: linear-gradient(to right, white, silver);
         align-items: center;
         display: flex;
         position: fixed;
@@ -535,13 +490,15 @@ a{
         box-sizing: border-box;
         transition: top 0.3s;
     }
-    #navBar{
+
+    #navBar {
         height: 30px;
         display: flex;
         justify-content: start;
         box-sizing: border-box;
     }
-    #navList{
+
+    #navList {
         height: 30px;
         font-size: 6px;
         width: 50%;
@@ -551,7 +508,8 @@ a{
         list-style: none;
         box-sizing: border-box;
     }
-    .navItem{
+
+    .navItem {
         display: flex;
         width: 35px;
         height: 30px;
@@ -559,47 +517,55 @@ a{
         align-items: center;
         box-sizing: border-box;
     }
-    
-    .navItem a:hover{
+
+    .navItem a:hover {
         color: red;
     }
-    .navItem a:active{
+
+    .navItem a:active {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 30px;
         color: red;
-        
+
     }
-    
-    .section{
+
+    .section {
         width: 100%;
         min-height: 100vh;
-        font-size: 4px;
+        font-size: 5px;
         box-sizing: border-box;
         z-index: -1;
     }
-    #section1{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 35px 0px 0px 4px;
     }
-    #section2{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 35px 0px 0px 4px;
     }
-    #section3{
-        background-image: linear-gradient(to left, green,lightblue);
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
         padding: 35px 0px 0px 4px;
     }
-    #section4{
-        background-image: linear-gradient(to right, green,lightblue);
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
         padding: 35px 0px 0px 4px;
     }
-    .section pre,h1{
+
+    .section pre,
+    h1 {
         text-align: left;
         color: white;
     }
-    #btnUp{
+
+    #btnUp {
         width: 25px;
         height: 25px;
         font-size: 23px;
@@ -615,8 +581,124 @@ a{
         padding: 0%;
         display: block;
     }
-    #btnUp:active{
+
+    #btnUp:active {
         background-color: white;
     }
+}
+
+@media screen and (max-width:280px) {
+
+    * {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        margin: 0px;
     }
-    
+
+    #container {
+        width: 100%;
+        height: 30px;
+        background-image: linear-gradient(to right, white, silver);
+        align-items: center;
+        display: flex;
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+        transition: top 0.3s;
+    }
+
+    #navBar {
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+
+    #navList {
+        height: 30px;
+        font-size: 6px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    .navItem {
+        display: flex;
+        width: 35px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .navItem a:hover {
+        color: red;
+    }
+
+    .navItem a:active {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        color: red;
+
+    }
+
+    .section {
+        width: 100%;
+        min-height: 100vh;
+        font-size: 4px;
+        box-sizing: border-box;
+        z-index: -1;
+    }
+
+    #section1 {
+        background-image: linear-gradient(to left, green, lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+
+    #section2 {
+        background-image: linear-gradient(to right, green, lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+
+    #section3 {
+        background-image: linear-gradient(to left, green, lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+
+    #section4 {
+        background-image: linear-gradient(to right, green, lightblue);
+        padding: 35px 0px 0px 4px;
+    }
+
+    .section pre,
+    h1 {
+        text-align: left;
+        color: white;
+    }
+
+    #btnUp {
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        border-radius: 45%;
+        border: none;
+        outline: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        cursor: pointer;
+        background-color: rgb(182, 73, 100);
+        padding: 0%;
+        display: block;
+    }
+
+    #btnUp:active {
+        background-color: white;
+    }
+}

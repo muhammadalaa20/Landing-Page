@@ -110,7 +110,15 @@ update()
 //get the button by the id btnUp
 let btnUp = document.getElementById("btnUp")
 //showing the btnUp after passing a threshold
+window.onscroll = function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        btnUp.style.display = "block";
+    } else {
+        btnUp.style.display = "none";
+    }
+}
 //calling the function from the html onclick
 function topFunction() {
+    document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0
 }
